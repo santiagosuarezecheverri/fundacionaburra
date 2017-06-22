@@ -88,7 +88,7 @@ a img.aligncenter {
 
 body {
   width: 100%;
-  margin: 10px;
+  margin: 17px;
   padding: 0px;
   text-align: left;
   font-size: 15px;
@@ -257,9 +257,9 @@ html, body {
 .container {
   position: relative;
   margin: 0px 0px 0px 0px;
-  padding: 0px 15px 0px 0px;
+  padding: 0px 11px 0px 29px;
   clear: both;
-  background-color: #f3ecdf;
+
 }
 
 .img_container.unfixed {
@@ -413,7 +413,7 @@ header, #header {
 }
 
 #header-top .container {
-  height: 60px;
+  height: 70px;
 }
 
 #social {
@@ -545,7 +545,8 @@ header, #header {
 
 #header-middle {
   position: absolute;
-  width: 100%;
+  width: 99%;
+  background-color: #515750;
   /*padding: 5px 0px 12px 30px;*/
   float: left;
 }
@@ -675,7 +676,7 @@ header, #header {
 
 #top-nav {
   position: absolute;
-  width: 100%;
+  width: 98%;
 }
 
 .top-nav-list *,
@@ -3379,7 +3380,7 @@ div[id^="wdwt_container"] p {
 /*#############TABLET##################*/
 @media screen and (max-width: 1024px) {
   .container {
-    width: 750px !important;
+    width: 100% !important;
   }
 
   /*#MAIN#*/
