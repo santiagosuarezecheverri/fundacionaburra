@@ -840,7 +840,7 @@ header, #header {
 #top-posts-list li {
   position: relative;
   display: block;
-  width: 100% !important;
+  width: 99% !important;
   text-align: left;
   overflow: hidden;
   clear: both;
@@ -861,7 +861,7 @@ header, #header {
   width: 100%;
   margin-bottom: 10px;
   margin-top: 2px;
-  text-align: right;
+  text-align: left;
 }
 
 #top-posts-list li .image-block_wrap {
@@ -903,7 +903,7 @@ header, #header {
 }
 
 #top-posts-list li div.image-block, .blog-post .image-block {
-  text-align: right;
+  text-align: left;
 }
 
 #top-posts-list li {
@@ -988,7 +988,7 @@ header, #header {
 #top-posts-list li div.text {
   width: 55%;
   margin-right: 2%;
-  text-align: right;
+  text-align: left;
   overflow: hidden;
   float: right;
 }
@@ -1165,7 +1165,8 @@ header, #header {
 }
 
 #blog .blog-post ul {
-  /*display:table;*/
+  display:grid;
+  float: left;
   width: 100%;
   list-style: none;
   padding: 5px 0px 0px 0px;
@@ -1596,7 +1597,7 @@ aside .sidebar-container img {
 #top-posts-list li a:link,
 #top-posts-list li a:visited {
   display: block;
-  text-align: right;
+  text-align: left;
 }
 
 #top-posts-list li a img {
@@ -1631,7 +1632,7 @@ aside .sidebar-container img {
   font-size: 20px;
   margin: 0px;
   word-wrap: break-word;
-  text-align: right;
+  text-align: left;
 }
 
 .blog-post .image-block {
