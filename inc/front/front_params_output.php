@@ -243,7 +243,7 @@ class news_magazine_front extends WDWT_front
     $primary_links_color = esc_html($this->get_param('[colors_active][colors][primary_links_color][value]', array(), "#074a7a"));
     $primary_links_hover_color = esc_html($this->get_param('[colors_active][colors][primary_links_hover_color][value]', array(), "#025a7e"));
     $menu_links_color = esc_html($this->get_param('[colors_active][colors][menu_links_color][value]', array(), "#232323"));
-    $menu_links_hover_color = esc_html($this->get_param('[colors_active][colors][menu_links_hover_color][value]', array(), "#FFFFFF"));
+    $menu_links_hover_color = esc_html($this->get_param('[colors_active][colors][menu_links_hover_color][value]', array(), "#FFFFFF"));//letra menu
     $menu_color = esc_html($this->get_param('[colors_active][colors][menu_color][value]', array(), "#000000"));
     $selected_menu_color = esc_html($this->get_param('[colors_active][colors][selected_menu_color][value]', array(), "#FFFFFF"));
     $selected_menu_item_color = esc_html($this->get_param('[colors_active][colors][selected_menu_item_color][value]', array(), "#0977A4"));
@@ -499,6 +499,7 @@ class news_magazine_front extends WDWT_front
       #top-nav-list > li:hover > a, #top-nav-list > li ul > li > a:hover, .top-nav-list li:hover a, .top-nav-list li ul li a:hover {
         color: <?php echo $menu_links_hover_color; ?> !important;
       }
+
 
       #wd-categories-vertical-tabs ul.tabs li a:focus, #wd-categories-vertical-tabs ul.tabs li a:active {
         color: <?php echo $block_text_color; ?> !important;
@@ -892,7 +893,7 @@ class news_magazine_front extends WDWT_front
                   <div style="display:table; margin:0 auto;">
             <span class="bwg_slideshow_description_span">
               <div class="bwg_slideshow_description_text <?php echo empty($textarea_array[0]) ? 'none' : '' ?>">
-                <?php echo str_replace(array("\n", "\r"), '', $textarea_array[0]); ?>        
+                <?php echo str_replace(array("\n", "\r"), '', $textarea_array[0]); ?>
         </div>
             </span>
                   </div>
@@ -1542,7 +1543,7 @@ class news_magazine_front extends WDWT_front
         var firstsize = 1024;
         var bodyWidth = jQuery(window).width();
         var parentWidth = jQuery(".bwg_slideshow_image_wrap").parent().width();
-        //tryuk vor hankarc responsive.js @  ushana body i chap@ verci vochte verevi div i 
+        //tryuk vor hankarc responsive.js @  ushana body i chap@ verci vochte verevi div i
         if (parentWidth > bodyWidth) {
           parentWidth = bodyWidth;
         }

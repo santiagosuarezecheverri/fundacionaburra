@@ -6,6 +6,7 @@
   padding: 0 4px 5px;
 }
 
+
 .sticky, .gallery-caption, .bypostauthor {
   font-size: 13px;
 }
@@ -138,7 +139,7 @@ h6 {
 h1, h2, h3, h4, h5, h6, form, p, ul, ol, dl, li {
   margin: 0px;
   padding: 0px;
-  color: #b2c84a;
+  color: #000;
 }
 
 aside h3 {
@@ -531,7 +532,8 @@ header, #header {
 #header-middle {
   position: absolute;
   width: 99%;
-  background-color: #515750;
+  background-color: #fff;
+  //color barra icono
   /*padding: 5px 0px 12px 30px;*/
   float: left;
 }
@@ -711,7 +713,8 @@ header, #header {
   padding: 8px 16px 0px 16px;
   height: 38px;
   font-size: 20px;
-  color: #b2c84a;
+  color: #3f2b16;
+  //letra menu
 }
 
 #top-nav > div > ul > li ul,
@@ -752,7 +755,7 @@ header, #header {
 
 #top-nav-list li.current-menu-item + li > a, #top-nav-list li.current_page_item + li > a,
 .top-nav-list li.current-menu-item + li > a, .top-nav-list li.current_page_item + li > a {
-  border-top: 0 !important;
+  border-top: 1 !important;
 }
 
 #top-nav > div > ul > li ul ul,
@@ -772,6 +775,7 @@ header, #header {
 #slideshow {
   position: relative;
   background-size:100% 100%;
+  background-color: transparent !important;
 }
 
 /*###########TOP POSTS##########*/
@@ -986,9 +990,10 @@ header, #header {
 }
 
 /*SLIDESHOW*/
+
 #slides-list {
   height: 100%;
-}
+  }
 
 #slideshow .nivo-caption {
   position: absolute;
@@ -1421,7 +1426,8 @@ aside .sidebar-container img {
   text-align: left;
   max-width: 295px;
   margin-top: 30px;
-  color: #505050;
+  color: ##3f2b16;
+  //texto
 }
 
 #sidebar-footer .widget-container h3 {
@@ -2382,7 +2388,7 @@ aside .sidebar-container img {
 #modal {
   position: absolute;
   background: url('/images/tint20.png') 0 0 repeat;
-  background-color: rgb(151, 151, 151);
+    background-color: rgb(151, 151, 151);
   border-radius: 14px;
   padding: 8px;
 }
@@ -3629,7 +3635,7 @@ div[id^="wdwt_container"] p {
 
   #top-nav > div ul, #top-nav > div > div ul {
     display: table;
-    background-color: #b2c84a;
+    background-color: #025a7e;
     width: 100%;
   }
 
@@ -4183,4 +4189,7 @@ div[id^="wdwt_container"] p {
     max-width: 100%;
   }
 
+}
+.top-nav-list > li:hover { //hover
+  background-color: #4b3721 !important;
 }
