@@ -664,6 +664,7 @@ header, #header {
 #top-nav {
   position: absolute;
   width: 40%;
+  left: 110px;
 }
 
 .top-nav-list *,
