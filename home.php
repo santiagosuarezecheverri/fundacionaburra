@@ -38,4 +38,7 @@ global $wdwt_front;
 		<?php } ?>
 		<div class="clear"></div>
 	</div>
+
+
+
 <?php get_footer(); ?>

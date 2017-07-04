@@ -73,15 +73,15 @@ a img.aligncenter {
 }
 
 body {
-  width: 100%;
-  margin: 17px;
+  width: 99% !important;
+  margin: 0px;
   padding: 0px;
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 select {
-  max-width: 100%;
+   max-width: 100%;
 }
 
 a {
@@ -232,7 +232,7 @@ a img {
 
 /*###################################################*/
 html, body {
-  width: 99%;
+  width: 100%;
 }
 
 .entry p {
@@ -243,7 +243,7 @@ html, body {
 .container {
   position: relative;
   margin: 0px 0px 0px 0px;
-  padding: 0px 12px 0px 0px;
+  padding: 0px 0px 0px 0px;
   clear: both;
 
 }
@@ -531,7 +531,7 @@ header, #header {
 
 #header-middle {
   position: absolute;
-  width: 99%;
+  width: 100%;
   background-color: #fff;
   //color barra icono
   /*padding: 5px 0px 12px 30px;*/
@@ -544,11 +544,11 @@ header, #header {
 
 #header_part {
   float: left;
-  width: 100%;
+  width: 99%;
 }
 
 #header-container {
-  clear: none;
+  clear: both;
   border-top: 0px solid #eaeaea;
 }
 
@@ -584,8 +584,8 @@ header, #header {
 
 .phone-menu-block {
   border-top: 1px solid #f3ecdf;
-  margin: 0px 1px 0px 158px;
-  width: 100%;
+  margin: 0px 0px 190px 0px !important;
+  width: 100% !important;
   position: relative;
 
 }
@@ -631,7 +631,7 @@ header, #header {
 }
 
 #adv {
-  margin-top: 7px;
+  margin-top: 0px;
   float: right;
 }
 
@@ -657,13 +657,13 @@ header, #header {
 
 /*#################NAVIGATION MENU######################*/
 #header .phone-menu-block {
-  margin: 12px 22px 160px 148px;
+  margin: 0px 1px 188px 0px;
   width: 90%;
 }
 
 #top-nav {
   position: absolute;
-  width: 98%;
+  width: 40%;
 }
 
 .top-nav-list *,
@@ -1548,7 +1548,7 @@ aside .sidebar-container img {
 /*TOP MENU */
 #menu-button-block {
   position: relative;
-  max-width: 98%;
+  max-width: 100% !important;
   height: 30px;
   text-align: right;
   padding-bottom: 5px;
@@ -3518,7 +3518,7 @@ div[id^="wdwt_container"] p {
 
 @media only screen and (max-width: 767px) {
   .container {
-    width: calc(100% - 15px) !important;
+    width: calc(100% - 0px) !important;
   }
 
   h1#logo {
@@ -3527,7 +3527,7 @@ div[id^="wdwt_container"] p {
   }
 
   .entry embed, .entry iframe {
-    max-width: 98%;
+    max-width: 99%;
   }
 
   #adv {

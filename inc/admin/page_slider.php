@@ -62,7 +62,7 @@ class WDWT_slider_page_class
       'title' => __('Specify where slider should be shown.', "news-magazine"),
       'type' => 'select',
       'valid_options' => array(
-        "Only on Homepage" => __("Only on Front Page", "news-magazine"),
+        "Only on Homepage" => __("Only on Homepage", "news-magazine"),
         "On all the pages and posts" => __("On all the pages and posts", "news-magazine"),
         "Hide Slider" => __("Hide Slider", "news-magazine"),
       ),
@@ -265,6 +265,3 @@ class WDWT_slider_page_class
     return "||wd||";
   }
 }
-
- 
-

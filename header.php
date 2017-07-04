@@ -107,20 +107,18 @@ if (is_array($show_slider)) {
       </div>
     </div>
   </div>
-
-  <?php
-  if (is_plugin_active('slider-wd/slider-wd.php') && $show_slider_wd && function_exists("wd_slider")) {
-    if ($show_slider != "Hide Slider" &&
-      ((is_front_page() && $show_slider == "Only on Homepage") ||
-        $show_slider == "On all the pages and posts")
-    ) {
-      ?>
-      <div class="container">
-        <?php wd_slider($slider_wd_id); ?>
-      </div>
-      <?php
+   <?php
+    if (is_plugin_active('slider-wd/slider-wd.php') && $show_slider_wd && function_exists("wd_slider")) {
+      if ($show_slider != "Hide Slider" &&
+         ($show_slider == "On all the pages and posts")
+      ) {
+        ?>
+        <div class="container">
+          <?php wd_slider($slider_wd_id); ?>
+        </div>
+        <?php
+      }
+    } else {
+      $wdwt_front->slideshow();
     }
-  } else {
-    $wdwt_front->slideshow();
-  }
-  ?>
+    ?>

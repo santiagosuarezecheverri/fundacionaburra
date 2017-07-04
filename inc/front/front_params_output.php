@@ -235,18 +235,18 @@ class news_magazine_front extends WDWT_front
     $home_top_posts_color = esc_html($this->get_param('[colors_active][colors][home_top_posts_color][value]', array(), "#FFFFFF"));
     $cat_tab_backgr_color = esc_html($this->get_param('[colors_active][colors][cat_tab_backgr_color][value]', array(), "#0E78A6"));
     $top_posts_color = esc_html($this->get_param('[colors_active][colors][top_posts_color][value]', array(), "#FFFFFF"));
-    $primary_text_headers_color = esc_html($this->get_param('[colors_active][colors][primary_text_headers_color][value]', array(), "#025a7e"));
+    $primary_text_headers_color = esc_html($this->get_param('[colors_active][colors][primary_text_headers_color][value]', array(), "#543516"));
     $block_text_color = esc_html($this->get_param('[colors_active][colors][block_text_color][value]', array(), "#ffffff"));
-    $text_headers_color = esc_html($this->get_param('[colors_active][colors][text_headers_color][value]', array(), "#025a7e"));
+    $text_headers_color = esc_html($this->get_param('[colors_active][colors][text_headers_color][value]', array(), "#543516"));
     $primary_text_color = esc_html($this->get_param('[colors_active][colors][primary_text_color][value]', array(), "#232323"));
     $footer_text_color = esc_html($this->get_param('[colors_active][colors][footer_text_color][value]', array(), "#565656"));
-    $primary_links_color = esc_html($this->get_param('[colors_active][colors][primary_links_color][value]', array(), "#074a7a"));
-    $primary_links_hover_color = esc_html($this->get_param('[colors_active][colors][primary_links_hover_color][value]', array(), "#025a7e"));
+    $primary_links_color = esc_html($this->get_param('[colors_active][colors][primary_links_color][value]', array(), "#543516"));
+    $primary_links_hover_color = esc_html($this->get_param('[colors_active][colors][primary_links_hover_color][value]', array(), "#543516"));
     $menu_links_color = esc_html($this->get_param('[colors_active][colors][menu_links_color][value]', array(), "#232323"));
-    $menu_links_hover_color = esc_html($this->get_param('[colors_active][colors][menu_links_hover_color][value]', array(), "#FFFFFF"));//letra menu
-    $menu_color = esc_html($this->get_param('[colors_active][colors][menu_color][value]', array(), "#000000"));
+    $menu_links_hover_color = esc_html($this->get_param('[colors_active][colors][menu_links_hover_color][value]', array(), "#b2c84a"));
+    $menu_color = esc_html($this->get_param('[colors_active][colors][menu_color][value]', array(), "#422d19"));
     $selected_menu_color = esc_html($this->get_param('[colors_active][colors][selected_menu_color][value]', array(), "#FFFFFF"));
-    $selected_menu_item_color = esc_html($this->get_param('[colors_active][colors][selected_menu_item_color][value]', array(), "#0977A4"));
+    $selected_menu_item_color = esc_html($this->get_param('[colors_active][colors][selected_menu_item_color][value]', array(), "#a45e09"));
     $logo_text_color = esc_html($this->get_param('[colors_active][colors][logo_text_color][value]', array(), "#8F8F8F"));
     $meta_info_color = esc_html($this->get_param('[colors_active][colors][meta_info_color][value]', array(), "#484848"));
     $date_bg_color = esc_html($this->get_param('[colors_active][colors][date_bg_color][value]', array(), "#0480B4"));
@@ -421,7 +421,7 @@ class news_magazine_front extends WDWT_front
       }
 
       #menu-button-block {
-        border-left: 3px solid <?php echo $menu_links_hover_color; ?>;
+      /*border-left: 3px solid <?php echo $menu_links_hover_color; ?>;*/
       }
 
       #search-input::-webkit-input-placeholder, #search-input, .widget-area > h3, .widget-area > h2, .sep, .sitemap h3, .comment-author .fn, .tab-more, #latest-news + .page-navigation {
