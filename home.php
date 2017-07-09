@@ -1,6 +1,22 @@
 <?php get_header();
+
 global $wdwt_front;
 ?>
+<?php
+ if (is_plugin_active('slider-wd/slider-wd.php') && $show_slider_wd && function_exists("wd_slider")) {
+	 if ($show_slider != "Hide Slider" &&
+			($show_slider == "On all the pages and posts")
+	 ) {
+		 ?>
+		 <div class="container">
+			 <?php wd_slider($slider_wd_id); ?>
+		 </div>
+		 <?php
+	 }
+ } else {
+	 $wdwt_front->slideshow();
+ }
+ ?>
 	</header>
 	<div class="container">
 		<?php if ( is_active_sidebar( 'sidebar-1' ) ) { ?>

@@ -2,7 +2,7 @@
 
 /*define theme global constants*/
 
-define("WDWT_TITLE", "News Magazine");
+define("WDWT_TITLE", "FudacionAburra");
 define("WDWT_SLUG", "news-magazine");
 define("WDWT_VAR", "news_magazine");
 define("WDWT_OPT", 'theme_' . WDWT_VAR . '_options');
@@ -11,7 +11,7 @@ define("WDWT_VERSION", wp_get_theme(WDWT_SLUG)->get('Version'));
 
 
 define("WDWT_LOGO_SHOW", true);
-define("WDWT_HOMEPAGE", "https://web-dorado.com");
+define("WDWT_HOMEPAGE", "http://localhost/html/wordpress/");
 /*directories*/
 define("WDWT_DIR", get_template_directory());
 /*URLs*/
