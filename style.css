@@ -69,7 +69,7 @@ a img.alignleft {
 a img.aligncenter {
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 body {
@@ -140,6 +140,10 @@ h1, h2, h3, h4, h5, h6, form, p, ul, ol, dl, li {
   margin: 0px;
   padding: 0px;
   color: #000;
+}
+
+#copyright p{
+  color: #FFF !important;
 }
 
 aside h3 {
@@ -533,7 +537,7 @@ header, #header {
 #header-middle {
   position: absolute;
   width: 100%;
-  background-color: #fff;
+  background-color: #3f2b16;
   //color barra icono
   /*padding: 5px 0px 12px 30px;*/
   float: left;
@@ -585,7 +589,7 @@ header, #header {
 
 .phone-menu-block {
   border-top: 1px solid #f3ecdf;
-  margin: 0px 0px 152px 0px !important;
+  margin: 0px 0px 170px 0px !important;
   width: 100% !important;
   position: relative;
 
@@ -664,7 +668,7 @@ header, #header {
 
 #top-nav {
   position: absolute;
-  width: 40%;
+  width: 42%;
   left: 110px;
 }
 
@@ -715,7 +719,7 @@ header, #header {
   padding: 8px 16px 0px 16px;
   height: 38px;
   font-size: 20px;
-  color: #3f2b16;
+  color: #FFFFFF;
   //letra menu
 }
 
@@ -1126,22 +1130,22 @@ header, #header {
 }
 
 .page-header {
-  line-height: 47px;
+  line-height: 0px;
 }
 
 .page-header, .most-categories-header {
-  min-height: 40px;
+  min-height: 0px;
   margin: 0 0 15px 0 !important;
   text-align: center !important;
 }
 
 .page-header span:not(.vcard), .most-categories-header a {
   position: relative;
-  top: 16px;
-  left: 13px;
+  top: 25px;
+  left: 0px;
   font-weight: bold;
   padding: 0 7px;
-  font-size: 26px;
+  font-size: 40px;
   text-align: left;
 }
 
@@ -1537,7 +1541,7 @@ aside .sidebar-container img {
 
 #footer-bottom {
   position: relative;
-  width: 100%;
+  width: 99%;
   clear: both;
   /*height: 45px; /*35px;*/
   padding: 6px 0px 0px 0px;
@@ -1940,7 +1944,7 @@ aside .sidebar-container img {
 }
 
 .blog-post .date {
-  width: 80px !important;
+  width: 20px !important;
 }
 
 /*
@@ -1953,7 +1957,7 @@ aside .sidebar-container img {
 .entry img, .widget-area img, .blog-post img {
   height: auto;
   max-width: 100%;
-  margin: 10px 0px;
+  margin: 0px 0px;
 }
 
 .image_for_vertcat {
@@ -2958,7 +2962,7 @@ ul.children > li.comment {
 }
 
 #respond input[type="text"], #respond input[placeholder], #respond textarea, #respond textarea[placeholder] {
-  color: #b2c84a !important;
+  color: #000000 !important;
   outline: none;
   resize: none;
   padding: 10px;

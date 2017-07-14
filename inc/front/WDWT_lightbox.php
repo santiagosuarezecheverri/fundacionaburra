@@ -543,6 +543,7 @@ class WDWT_Lightbox
             if ($enable_image_fullscreen) {
               if (!$open_with_fullscreen) {
                 ?>
+
                 <i title="<?php esc_attr_e('Maximize', "news-magazine"); ?>"
                    class="wdwt_ctrl_btn wdwt_resize-full fa fa-resize-full "></i>
                 <?php
@@ -550,6 +551,7 @@ class WDWT_Lightbox
               ?>
               <i title="<?php echo esc_attr_e('Fullscreen', "news-magazine"); ?>"
                  class="wdwt_ctrl_btn wdwt_fullscreen fa fa-fullscreen"></i>
+                 
             <?php }
             if ($popup_enable_info) { ?>
               <i title="<?php echo esc_attr_e('Show info', "news-magazine"); ?>"

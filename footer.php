@@ -11,24 +11,27 @@ $footer_text = $wdwt_front->get_param('footer_text');
 				<div class="footer-sidbar">
                     <div id="sidebar-footer" >
                       <?php  dynamic_sidebar( 'sidebar-3' ); 	?>
-                    </div>	
-                </div>     	
+                    </div>
+                </div>
           <?php } ?>
 		</div>
-		 
+
 		<?php if ( is_active_sidebar( 'sidebar-4' ) ) { ?>
 		<div class="footer-sidbar" id="sidebar4">
 			<div id="sidebar-right-footer" >
 			  <?php  dynamic_sidebar( 'sidebar-4' ); 	?>
 			  <div class="clear"></div>
-			</div>	
-		</div>     	
+			</div>
+		</div>
         <?php } ?>
     </div>
 </div>
-<div id="footer-bottom">
-	  <span id="copyright"><?php if($footer_text_enable) echo stripslashes($footer_text);  ?></span>
+<div id="footer_letter">
+  <div id="footer-bottom">
+  	  <span id="copyright"><?php if($footer_text_enable) echo stripslashes($footer_text);  ?></span>
+  </div>
 </div>
+
 <?php  wp_footer();  ?>
 </body>
 </html>
